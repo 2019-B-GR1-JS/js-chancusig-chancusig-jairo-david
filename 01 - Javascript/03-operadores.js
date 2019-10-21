@@ -70,3 +70,34 @@ const respuestaMenoresADiez =
 //  for in
 //  while
 //  switch -> PYTHON :(
+
+
+
+//////////////////////////// Lunes 21/10/19
+
+const respuestaFind =
+    arreglo.find(
+        (valorActual, indice, arreglo) => {
+            return valorActual === 8;
+}
+    );
+console.log(respuestaFind);
+
+const respuestaFindIndex =
+    arreglo.findIndex(
+        (valorActual) => {
+    return valorActual === 8;
+}
+);
+console.log(respuestaFindIndex);
+
+const respuestaReduce =
+    arreglo
+        .reduce(
+        (valorInicial, valorActual, indice, array) => {
+        return valorInicial + valorActual;
+        },0//Valor inicial
+    );
+    console.log(respuestaReduce);
+
+
