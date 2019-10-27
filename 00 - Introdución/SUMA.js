@@ -1,2 +1,4 @@
 
-console.log('xD');
+
+ x = 2 + 4;
+console.log(x);
