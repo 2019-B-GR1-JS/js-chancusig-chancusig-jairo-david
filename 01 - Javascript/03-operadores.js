@@ -1,5 +1,6 @@
 const arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (const i in arreglo) { // Indices
+
+/*for (const i in arreglo) { // Indices
     console.log('I:', i);
     // arreglo[i] = arreglo[i] + 5 ;
 }
@@ -19,7 +20,7 @@ const respuestaForEach = arreglo
 console.log('respuestaForEach', respuestaForEach);
 console.log('arreglo', arreglo);
 
-
+*/
 const respuestaMap = arreglo
     .map(  // Transformar -> Mutar ARREGLO
         function (valorActual, indiceActual, arreglo) {
@@ -99,5 +100,4 @@ const respuestaReduce =
         },0//Valor inicial
     );
     console.log(respuestaReduce);
-
 

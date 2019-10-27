@@ -209,3 +209,5 @@ const clonadoJC={
 console.log(clonadoJC);
 clonadoJC.edad = 21;
 console.log(objetoJairoChancusig);
+
+
