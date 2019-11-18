@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de54a2d-4d27-454f-8d61-1410ac12c218" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/00 - Introdución/SUMA.js" beforeDir="false" afterPath="$PROJECT_DIR$/00 - Introdución/SUMA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 - Javascript/06-sync-async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 - Javascript/07-promesas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,17 +48,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.SUMA.js">
-    <configuration name="02-objetos.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01 - Javascript/02-objetos.js" working-dir="$PROJECT_DIR$/01 - Javascript">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.07-promesas.js">
     <configuration name="03-operadores.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01 - Javascript/03-operadores.js" working-dir="$PROJECT_DIR$/01 - Javascript">
       <method v="2" />
     </configuration>
-    <configuration name="04-funciones.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01 - Javascript/04-funciones.js" working-dir="$PROJECT_DIR$/01 - Javascript">
+    <configuration name="05-callbacks.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01 - Javascript/05-callbacks.js" working-dir="$PROJECT_DIR$/01 - Javascript">
       <method v="2" />
     </configuration>
-    <configuration name="05-callbacks.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01 - Javascript/05-callbacks.js" working-dir="$PROJECT_DIR$/01 - Javascript">
+    <configuration name="06-sync-async.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01 - Javascript/06-sync-async.js" working-dir="$PROJECT_DIR$/01 - Javascript">
+      <method v="2" />
+    </configuration>
+    <configuration name="07-promesas.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01 - Javascript/07-promesas.js" working-dir="$PROJECT_DIR$/01 - Javascript">
       <method v="2" />
     </configuration>
     <configuration name="SUMA.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/00 - Introdución/SUMA.js" working-dir="$PROJECT_DIR$/00 - Introdución">
@@ -64,11 +66,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.07-promesas.js" />
+        <item itemvalue="Node.js.06-sync-async.js" />
         <item itemvalue="Node.js.SUMA.js" />
         <item itemvalue="Node.js.05-callbacks.js" />
         <item itemvalue="Node.js.03-operadores.js" />
-        <item itemvalue="Node.js.04-funciones.js" />
-        <item itemvalue="Node.js.02-objetos.js" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +91,8 @@
       <workItem from="1571692547934" duration="6364000" />
       <workItem from="1571847134351" duration="95000" />
       <workItem from="1572038217424" duration="6134000" />
-      <workItem from="1572205405427" duration="3380000" />
+      <workItem from="1572205405427" duration="3718000" />
+      <workItem from="1572297012070" duration="6420000" />
     </task>
     <servers />
   </component>
