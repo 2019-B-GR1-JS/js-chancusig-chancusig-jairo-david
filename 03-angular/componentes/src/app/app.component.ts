@@ -10,11 +10,11 @@ export class AppComponent {
   arregloObjetos = [
     {
       id: 1,
-      nombre: "Edison", //string
-      apellido: 'Sanango', //string
+      nombre: "Chancusig", //string
+      apellido: 'Jairo', //string
       sueldo: 12.12, //number
       casado: false, //boolean
-      comida: "https://images.clarin.com/2019/08/30/de-la-invencion-de-la___hLWb7dc-8_1256x620__1.jpg", //
+      comida: "https://upload.wikimedia.org/wikipedia/commons/d/db/Icono_xD_para_wikipedia.png", //
       carro: null,
       ojos: undefined,
       w: "200",

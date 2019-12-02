@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2de54a2d-4d27-454f-8d61-1410ac12c218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/componentes/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/componentes/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-angular/componentes/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/componentes/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/componentes/src/app/mi-primer-componente/mi-primer-componente.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/componentes/src/app/mi-primer-componente/mi-primer-componente.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/componentes/src/app/mi-primer-componente/mi-primer-componente.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/componentes/src/app/mi-primer-componente/mi-primer-componente.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/componentes/src/app/mi-primer-componente/mi-primer-componente.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/componentes/src/app/mi-primer-componente/mi-primer-componente.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/package-lock.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +30,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Users\Jairo Chancusig\Documents\GitHub\js-chancusig-chancusig-jairo-david\03-angular\componentes\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -109,7 +106,7 @@
       <workItem from="1574720929690" duration="1172000" />
       <workItem from="1574722986662" duration="60000" />
       <workItem from="1575321071011" duration="847000" />
-      <workItem from="1575322672761" duration="1547000" />
+      <workItem from="1575322672761" duration="2704000" />
     </task>
     <servers />
   </component>
