@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2de54a2d-4d27-454f-8d61-1410ac12c218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-angular/componentes/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/componentes/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-angular/componentes/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/componentes/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-angular/componentes/src/app/mi-primer-componente/mi-primer-componente.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/componentes/src/app/mi-primer-componente/mi-primer-componente.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-angular/componentes/src/app/mi-primer-componente/mi-primer-componente.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/componentes/src/app/mi-primer-componente/mi-primer-componente.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-angular/componentes/src/app/mi-primer-componente/mi-primer-componente.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/componentes/src/app/mi-primer-componente/mi-primer-componente.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,11 +107,19 @@
       <workItem from="1574716861499" duration="627000" />
       <workItem from="1574718592932" duration="1606000" />
       <workItem from="1574720929690" duration="1172000" />
+      <workItem from="1574722986662" duration="60000" />
+      <workItem from="1575321071011" duration="847000" />
+      <workItem from="1575322672761" duration="1547000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/03-angular/componentes/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
