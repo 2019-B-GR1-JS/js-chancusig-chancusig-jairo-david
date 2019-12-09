@@ -1,0 +1,32 @@
+
+<h1>{{titulo}}</h1>
+<img [width] = "width"
+     [height] = "heigth"
+     [src] ="imagen" alt="">
+<!-- PROPERTY BINDING SE USA LOS [] PARA MODIFICAR UNA PROPIEDAD EN ESTE CASO EL src -->
+<p>{{textoImagen}}</p>
+<input type="text" (blur)="valorUno($event)">
+<input type="text" (blur)="valorDos($event)">
+
+<!--
+<button (change)="sumar()"> Suma </button>
+<button (click)="restar()"> Resta </button>
+<button (click)="multi()"> Multi </button>
+<button (click)="dividir()" > Division </button>
+-->
+<button (blur)="operar()" > Operar </button>
+
+<p>{{resSuma}}</p>
+<p>{{resResta}}</p>
+<p>{{resMulti}}</p>
+<p>{{resDivision}}</p>
+
+
+<!--
+<button> Suma</button> -->
+<!-- EVENT BINDING -->
+<!-- [evento] == "miFuncion($event) " -->
+<button (click)="aumentarHeight()"
+>
+  {{textoBoton}}
+</button>
