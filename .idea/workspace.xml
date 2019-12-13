@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2de54a2d-4d27-454f-8d61-1410ac12c218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 - Javascript/01-variables.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 - Javascript/01-variables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-typescript/01-Introducción.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/01-Introducción.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-angular/componentes/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/componentes/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/package-lock.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +107,12 @@
       <workItem from="1574720929690" duration="1172000" />
       <workItem from="1574722986662" duration="60000" />
       <workItem from="1575321071011" duration="847000" />
-      <workItem from="1575322672761" duration="2704000" />
+      <workItem from="1575322672761" duration="4318000" />
+      <workItem from="1575818929065" duration="6285000" />
+      <workItem from="1575848548938" duration="5706000" />
+      <workItem from="1575927120958" duration="967000" />
+      <workItem from="1575988094689" duration="1548000" />
+      <workItem from="1576272547093" duration="2026000" />
     </task>
     <servers />
   </component>

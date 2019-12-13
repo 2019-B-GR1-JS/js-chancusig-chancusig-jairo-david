@@ -83,9 +83,9 @@ if ([]) {
 }
 
 // JSON - JS
-const adrian = {
-    "nombre": 'Adrian',
-    'apellido': "Eguez Sarzosa",
+const jairo = {
+    "nombre": 'Jairo',
+    'apellido': "Chancusig",
     edad: 10,
     casado: false,
     hijos: null,

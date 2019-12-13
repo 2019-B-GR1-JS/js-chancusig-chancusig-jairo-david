@@ -10,11 +10,11 @@ export class AppComponent {
   arregloObjetos = [
     {
       id: 1,
-      nombre: "Chancusig", //string
-      apellido: 'Jairo', //string
+      nombre: "Jairo", //string
+      apellido: 'Chancusig', //string
       sueldo: 12.12, //number
       casado: false, //boolean
-      comida: "https://upload.wikimedia.org/wikipedia/commons/d/db/Icono_xD_para_wikipedia.png", //
+      comida: "https://infocielo.com/uploads/noticias/imagenes/a/2019/04/20190424085954_mejores-memes-655x368.jpg", //
       carro: null,
       ojos: undefined,
       w: "200",
@@ -22,7 +22,7 @@ export class AppComponent {
     }
    /* {
       id: 2,
-      nombre: "Pedro", //string
+      nombre: "Gret", //string
       apellido: 'Rocha', //string
       sueldo: 22.12, //number
       casado: true, //boolean
@@ -32,8 +32,8 @@ export class AppComponent {
     },
     {
       id: 3,
-      nombre: "Bolivar", //string
-      apellido: 'Jaramillo', //string
+      nombre: "Simon", //string
+      apellido: 'Bolivar', //string
       sueldo: 32.12, //number
       casado: false, //boolean
       comida: "https://titania.marfeel.com/statics/i/ps/www.ecestaticos.com/imagestatic/clipping/78e/458/78e458c5a29ae47ee828218afc325961/por-que-el-desayuno-es-la-comida-mas-importante-si-quieres-estar-delgado.jpg?mtime=1500459950", //
