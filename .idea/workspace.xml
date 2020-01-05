@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2de54a2d-4d27-454f-8d61-1410ac12c218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-ionic/comida/src/app/tab3/tab3.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-ionic/comida/src/app/tab3/tab3.page.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04-ionic/comida" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="ts.external.directory.path" value="C:\Users\Jairo Chancusig\Documents\GitHub\js-chancusig-chancusig-jairo-david\03-angular\componentes\node_modules\typescript\lib" />
@@ -117,6 +117,7 @@
       <workItem from="1577465996732" duration="1334000" />
       <workItem from="1577468055881" duration="1475000" />
       <workItem from="1577547270802" duration="708000" />
+      <workItem from="1578247504713" duration="249000" />
     </task>
     <servers />
   </component>
