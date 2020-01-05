@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2de54a2d-4d27-454f-8d61-1410ac12c218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01 - Javascript/01-variables.js" beforeDir="false" afterPath="$PROJECT_DIR$/01 - Javascript/01-variables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-typescript/01-Introducción.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/01-Introducción.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/componentes/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/componentes/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +25,9 @@
   <component name="ProjectId" id="1SR3jGvP4RxLMyVBLY0Bs0t70fZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04-ionic/comida" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="ts.external.directory.path" value="C:\Users\Jairo Chancusig\Documents\GitHub\js-chancusig-chancusig-jairo-david\03-angular\componentes\node_modules\typescript\lib" />
@@ -112,7 +111,12 @@
       <workItem from="1575848548938" duration="5706000" />
       <workItem from="1575927120958" duration="967000" />
       <workItem from="1575988094689" duration="1548000" />
-      <workItem from="1576272547093" duration="2026000" />
+      <workItem from="1576272547093" duration="2312000" />
+      <workItem from="1576276396922" duration="1412000" />
+      <workItem from="1577462237625" duration="1233000" />
+      <workItem from="1577465996732" duration="1334000" />
+      <workItem from="1577468055881" duration="1475000" />
+      <workItem from="1577547270802" duration="708000" />
     </task>
     <servers />
   </component>
