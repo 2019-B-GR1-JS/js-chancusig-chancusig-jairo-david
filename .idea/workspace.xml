@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de54a2d-4d27-454f-8d61-1410ac12c218" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/services/rest/usuario.rest.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04-ionic/comida/src/app/tab3/tab3.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-ionic/comida/src/app/tab3/tab3.page.html" afterDir="false" />
     </list>
@@ -117,7 +118,12 @@
       <workItem from="1577465996732" duration="1334000" />
       <workItem from="1577468055881" duration="1475000" />
       <workItem from="1577547270802" duration="708000" />
-      <workItem from="1578247504713" duration="249000" />
+      <workItem from="1578247504713" duration="419000" />
+      <workItem from="1578266915462" duration="38000" />
+      <workItem from="1578327625142" duration="1034000" />
+      <workItem from="1578328762766" duration="458000" />
+      <workItem from="1578690606353" duration="151000" />
+      <workItem from="1578691065812" duration="5933000" />
     </task>
     <servers />
   </component>
@@ -141,5 +147,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.spec.ts</url>
+          <line>7</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
