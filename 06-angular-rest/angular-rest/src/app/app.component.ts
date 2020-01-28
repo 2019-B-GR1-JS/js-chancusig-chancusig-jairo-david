@@ -1,54 +1,41 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {FILAS} from './constantes/numero-filas-por-tabla';
+
+import {ModalEditarUsuarioComponent} from "./modales/modal-editar-usuario/modal-editar-usuario.component";
+import {MatDialog} from "@angular/material/dialog";
+import {UsuarioRestService} from "./services/rest/usuario-rest.service";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit{
-  title = 'angular-rest';
-  url = 'http://localhost:1337';
-  usuarios = [];
-  //Inyeccion de dependencias
-  //Dependencias -> Servicios!
-  constructor(
-    private readonly _httpClient: HttpClient
-  ){
-  // CASI NUNCA HACER CONFIGURACIONES (CÓDIGO)
+export class AppComponent implements OnInit {
+  constructor() {
+
   }
+
   ngOnInit(): void {
-      //'http://localhost:1337' + /usuario
-
-    //CORS ->
-    // http://gmail.com -> http://facebook.com
-    //http://localhost:1337 -> http://localhost:4200
-    const urlUsuarios = this.url + '/usuario';
-    // $ -> Observable
-    const respuesta = this._httpClient.get(
-      urlUsuarios
-    );
-    usuarios$
-      .subscribe(
-        (usuarios : any[])=>{ //TRY
-          console.log('Usuarios: ', datos)
-          this.usuarios = usuarios;
-        },
-        (error) => {
-          console.error({ //CATCH
-            error: error,
-            mensaje: 'Error consultando consola'
-
-          })
-        }
-      )
   }
+
 }
 
-editar(usuario){
-  console.log('Editando usuario', usuario)
-}
+//
+//
+// /Inicio -> Componente
+// /login -> Componente
+// /Gestion Usuarios -> Componente
+//   // Gestion de Libros -> Componente
+//        / Buscar libros -> Componente (id Usuario)
+//        / Crear libros -> Componente (id Usuario)
+//        / Editar libros  -> Componente (id Libro)
 
-Eliminar(usuario){
-  console.log('Editando usuario', usuario)
-}
+
+
+
+
+
+
+
+

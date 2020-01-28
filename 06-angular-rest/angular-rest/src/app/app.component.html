@@ -1,62 +1,28 @@
 
+<ul> <!-- Unordered List -->
+  <li>
+    <a [routerLink]="['/inicio']"> <!-- Ancho/Ancla -->
+      Inicio
+    </a>
+  </li>
+  <li>
+    <a [routerLink]="['/login']"><!-- Ancho/Ancla -->
+      Login
+    </a>
+  </li>
+  <li>
+    <a [routerLink]="['/inicio','gestion-usuarios']"><!-- Ancho/Ancla -->
+      <!-- routerLink es un ARREGLO de SEGMENTOS URL  -->
+      Gestion de usuarios
+    </a>
+  </li>
+  <li>
+    <a [routerLink]="['/inicio','gestion-usuarios', 1,'gestion-libros']"><!-- Ancho/Ancla -->
+      Gestion de libros
+    </a>
+  </li><!-- List Item -->
+</ul>
 
-
-<table>
-  <tr> <!--table row-->
-    <th>Nombre</th><!--table header-->
-    <th>Apellido</th><!--table header-->
-    <th>Password</th><!--table header-->
-    <th>Correo</th><!--table header-->
-    <th>Acciones</th><!--table header-->
-
-
-  </tr>
-  <tr>
-    <td>Jairo</td> <!--table detail-->
-    <td>Chancusig</td> <!--table detail-->
-    <td>1234</td> <!--table detail-->
-    <td>jairo@jairo.com</td> <!--table detail-->
-
-  </tr>
-</table>
-
-
-
-<table>
-  <tr> <!--table row-->
-    <th>Nombre</th><!--table header-->
-    <th>Apellido</th><!--table header-->
-    <th>Password</th><!--table header-->
-    <th>Correo</th><!--table header-->
-
-
-  </tr>
-  <tr * ngFor="let usuario of usuarios">
-    <td>{{usuarios.nombre}}</td> <!--table detail-->
-    <td>{{usuarios.apellido}}</td> <!--table detail-->
-    <td>{{usuarios.password}}</td> <!--table detail-->
-    <td>{{usuarios.correo}}</td> <!--table detail-->
-    <td>
-      <p-button label="EDITAR" (click)="editar(usuarios)">
-        Editar
-      </p-button>
-      <p-button label="ELIMINAR" (click)="eliminar(usuarios)">
-        Eliminar
-      </p-button>
-    </td> <!--table detail-->
-
-  </tr>
-</table>
-
-
-
-
-<div * ngFor="let usuario of usuarios">
-  <p>Nombre: {{usuarios.nombre}}</p>
-  <p>Apellido: {{usuarios.apellido}}</p>
-  <p>Password: {{usuarios.password}}</p>
-  <p>Correo: {{usuarios.correo}}</p>
-
-
-</div>
 <router-outlet></router-outlet>
+
+<p>Pie de pagina</p>
