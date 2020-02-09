@@ -3,110 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="2de54a2d-4d27-454f-8d61-1410ac12c218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/.npmrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/.sailsrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/api/controllers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/api/controllers/UsuarioController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/api/helpers/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/api/models/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/api/models/Usuario.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/api/policies/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/assets/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/assets/dependencies/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/assets/dependencies/sails.io.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/assets/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/assets/images/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/assets/js/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/assets/styles/importer.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/assets/templates/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/blueprints.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/datastores.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/env/production.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/globals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/http.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/i18n.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/locales/de.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/locales/en.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/locales/es.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/locales/fr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/log.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/models.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/policies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/security.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/session.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/sockets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/views.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/config/babel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/config/clean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/config/concat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/config/copy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/config/cssmin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/config/hash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/config/less.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/config/sails-linker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/config/sync.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/config/uglify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/config/watch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/pipeline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/register/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/register/buildProd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/register/compileAssets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/register/default.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/register/linkAssets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/register/linkAssetsBuild.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/register/linkAssetsBuildProd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/register/polyfill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/register/prod.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/tasks/register/syncAssets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/views/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/views/404.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/views/500.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/views/layouts/layout.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-sails/backend/views/pages/homepage.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/services/rest/usuario.rest.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-sails/backend/api/models/Usuario.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-sails/backend/api/models/Usuario.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/services/rest/usuario-rest.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/services/rest/usuario-rest.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -229,6 +138,11 @@
       <workItem from="1578850128948" duration="13000" />
       <workItem from="1578851077788" duration="78000" />
       <workItem from="1578851221913" duration="1328000" />
+      <workItem from="1580233597989" duration="268000" />
+      <workItem from="1580685776304" duration="2173000" />
+      <workItem from="1580690718430" duration="1896000" />
+      <workItem from="1580693198917" duration="1412000" />
+      <workItem from="1581109993299" duration="488000" />
     </task>
     <servers />
   </component>
