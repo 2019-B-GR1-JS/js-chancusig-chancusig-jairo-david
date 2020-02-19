@@ -6,19 +6,21 @@
  */
 
 module.exports = {
+
   attributes: {
-    nombre: {
+    nombre : {
       type: 'string'
     },
-    apellido: {
+    apellido : {
       type: 'string'
     },
-    correo: {
+    correo : {
       type: 'string'
     },
-    password: {
+    password : {
       type: 'string'
-    }
+    },
   },
+
 };
 

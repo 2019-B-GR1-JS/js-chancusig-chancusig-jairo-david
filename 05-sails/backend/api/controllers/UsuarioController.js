@@ -9,8 +9,9 @@ module.exports = {
 
 
 };
-// HTTP
-// RESTFULL
+//HTTP
+//RESTFULL
+//Find
 // METODO HTTP + URL + *Parametros
 // *Parametros
 // Ruta -> REQUERIDOS
@@ -19,21 +20,20 @@ module.exports = {
 
 // Query -> SIEMPRE OPCIONALES
 // http://localhost:1337/usuario
-// http://localhost:1337/usuario?nombre=Adrian&apellido=Eguez
-// http://localhost:1337/usuario?nombre=Adrian
+// http://localhost:1337/usuario?nombre=Jairo&apellido=Chancusig
+// http://localhost:1337/usuario?nombre=Jairo
 // Consulta Ruta -> llegan como "TEXTO"
 
 // Body
 // http://localhost:1337/usuario
 /*
 {
-  nombre: "Adrian",
-  apellido: "Eguez",
+  nombre: "Jairo",
+  apellido: "Chancusig",
   correo: "a@a.com", -> string
   edad: 1, -> number
   casado: true, -> boolean
 }
-
 {
   pedido: 5, -> number
   detallePedido:{

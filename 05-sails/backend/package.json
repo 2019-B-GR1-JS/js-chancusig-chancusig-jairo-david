@@ -26,11 +26,11 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/usrdel/backend.git"
+    "url": "git://github.com/anonymous node/sails user/backend.git"
   },
-  "author": "usrdel",
+  "author": "anonymous node/sails user",
   "license": "",
   "engines": {
-    "node": "^12.13"
+    "node": "^10.16"
   }
 }

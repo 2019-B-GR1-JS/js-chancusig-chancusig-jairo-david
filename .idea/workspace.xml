@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="2de54a2d-4d27-454f-8d61-1410ac12c218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-sails/backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/05-sails/backend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-sails/backend/api/controllers/LibroController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-sails/backend/api/controllers/UsuarioController.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-sails/backend/api/controllers/UsuarioController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-sails/backend/api/models/Libro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-sails/backend/api/models/Usuario.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-sails/backend/api/models/Usuario.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-sails/backend/config/models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/security.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-sails/backend/config/security.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-sails/backend/config/session.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-sails/backend/config/session.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-sails/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/05-sails/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-sails/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/05-sails/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-sails/backend/views/layouts/layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/05-sails/backend/views/layouts/layout.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04-ionic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="ts.external.directory.path" value="C:\Users\Jairo Chancusig\Documents\GitHub\js-chancusig-chancusig-jairo-david\04-ionic\comida\node_modules\typescript\lib" />
@@ -132,6 +143,7 @@
       <workItem from="1581109993299" duration="488000" />
       <workItem from="1582134889762" duration="43000" />
       <workItem from="1582135026486" duration="531000" />
+      <workItem from="1582141859654" duration="2770000" />
     </task>
     <servers />
   </component>
