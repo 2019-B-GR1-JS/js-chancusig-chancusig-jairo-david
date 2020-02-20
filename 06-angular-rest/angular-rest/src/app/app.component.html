@@ -1,46 +1,35 @@
 
 
-
-<table>
-  <tr> <!-- table row -->
-    <th>Nombre</th> <!-- table header -->
-    <th>Apellido</th> <!-- table header -->
-    <th>Correo</th> <!-- table header -->
-    <th>Password</th> <!-- table header -->
-  </tr>
-  <tr> <!-- table row-->
-    <td>Adrian</td> <!-- table detail -->
-    <td>Eguez</td> <!-- table detail -->
-    <td>a@a.com</td> <!-- table detail -->
-    <td>1234</td> <!-- table detail -->
-  </tr>
-</table>
+<div *ngIf="_authService.estaLogeado">
+  <p>{{_authService.sesion.nombre}} {{_authService.sesion.apellido}} </p>
+  <p>{{_authService.sesion.correo}}</p>
+</div>
 
 
-
-<table>
-  <tr> <!-- table row -->
-    <th>Nombre</th> <!-- table header -->
-    <th>Apellido</th> <!-- table header -->
-    <th>Correo</th> <!-- table header -->
-    <th>Password</th> <!-- table header -->
-    <th>Acciones</th> <!-- table header -->
-  </tr>
-  <tr *ngFor="let usuario of usuarios"> <!-- table row-->
-    <td>{{usuario.nombre}}</td> <!-- table detail -->
-    <td>{{usuario.apellido}}</td> <!-- table detail -->
-    <td>{{usuario.correo}} </td> <!-- table detail -->
-    <td>{{usuario.password}}</td> <!-- table detail -->
-    <td>
-      <p-button label="EDITAR" (click)="editar(usuario)">
-      </p-button>
-      <p-button label="ELIMINAR" (click)="eliminar(usuario)">
-      </p-button>
-    </td> <!-- table detail -->
-  </tr>
-</table>
-
-
-
+<ul> <!-- Unordered List -->
+  <li>
+    <a [routerLink]="['/inicio']"> <!-- Ancho/Ancla -->
+      Inicio
+    </a>
+  </li>
+  <li>
+    <a [routerLink]="['/login']"><!-- Ancho/Ancla -->
+      Login
+    </a>
+  </li>
+  <li>
+    <a [routerLink]="['/inicio','gestion-usuarios']"><!-- Ancho/Ancla -->
+      <!-- routerLink es un ARREGLO de SEGMENTOS URL  -->
+      Gestion de usuarios
+    </a>
+  </li>
+  <li>
+    <a [routerLink]="['/inicio','gestion-usuarios', 1,'gestion-libros']"><!-- Ancho/Ancla -->
+      Gestion de libros
+    </a>
+  </li><!-- List Item -->
+</ul>
 
 <router-outlet></router-outlet>
+
+<p>Pie de pagina</p>
