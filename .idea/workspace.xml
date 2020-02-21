@@ -4,7 +4,10 @@
     <list default="true" id="2de54a2d-4d27-454f-8d61-1410ac12c218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/tsconfig.app.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +141,7 @@
       <workItem from="1582234296933" duration="32000" />
       <workItem from="1582235110485" duration="8479000" />
       <workItem from="1582243896890" duration="2038000" />
-      <workItem from="1582303488614" duration="3279000" />
+      <workItem from="1582303488614" duration="4949000" />
     </task>
     <servers />
   </component>

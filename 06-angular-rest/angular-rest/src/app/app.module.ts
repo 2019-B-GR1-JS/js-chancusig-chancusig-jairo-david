@@ -16,6 +16,9 @@ import { RutaInicioComponent } from './rutas/ruta-inicio/ruta-inicio.component';
 import { RutaLoginComponent } from './rutas/ruta-login/ruta-login.component';
 import { RutaGestionUsuariosComponent } from './rutas/ruta-gestion-usuarios/ruta-gestion-usuarios.component';
 import { RutaGestionLibrosComponent } from './rutas/ruta-gestion-libros/ruta-gestion-libros.component';
+import { RutaCrearLibroComponent } from './rutas/ruta-crear-libro/ruta-crear-libro.component';
+import { RutaEditarLibroComponent } from './rutas/ruta-editar-libro/ruta-editar-libro.component';
+import { RutaBuscarLibroComponent } from './rutas/ruta-buscar-libro/ruta-buscar-libro.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +26,10 @@ import { RutaGestionLibrosComponent } from './rutas/ruta-gestion-libros/ruta-ges
     RutaInicioComponent,
     RutaLoginComponent,
     RutaGestionUsuariosComponent,
-    RutaGestionLibrosComponent
+    RutaGestionLibrosComponent,
+    RutaCrearLibroComponent,
+    RutaEditarLibroComponent,
+    RutaBuscarLibroComponent
   ],
   entryComponents:[
     ModalEditarUsuarioComponent
