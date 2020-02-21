@@ -12,10 +12,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatInputModule} from "@angular/material/input";
 import { ModalEditarUsuarioComponent } from './modales/modal-editar-usuario/modal-editar-usuario.component';
 import {MatDialogModule} from "@angular/material/dialog";
+import { RutaInicioComponent } from './rutas/ruta-inicio/ruta-inicio.component';
+import { RutaLoginComponent } from './rutas/ruta-login/ruta-login.component';
+import { RutaGestionUsuariosComponent } from './rutas/ruta-gestion-usuarios/ruta-gestion-usuarios.component';
+import { RutaGestionLibrosComponent } from './rutas/ruta-gestion-libros/ruta-gestion-libros.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ModalEditarUsuarioComponent
+    ModalEditarUsuarioComponent,
+    RutaInicioComponent,
+    RutaLoginComponent,
+    RutaGestionUsuariosComponent,
+    RutaGestionLibrosComponent
   ],
   entryComponents:[
     ModalEditarUsuarioComponent
