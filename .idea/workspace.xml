@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de54a2d-4d27-454f-8d61-1410ac12c218" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/constantes/numero-filas-por-tablas.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/services/rest/usuario-rest.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/app/services/rest/usuario-rest.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/06-angular-rest/angular-rest/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +35,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
-    <property name="ts.external.directory.path" value="C:\Users\Jairo Chancusig\Documents\GitHub\js-chancusig-chancusig-jairo-david\03-angular\componentes\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\Jairo Chancusig\Documents\GitHub\js-chancusig-chancusig-jairo-david\06-angular-rest\angular-rest\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -139,7 +140,9 @@
       <workItem from="1582135026486" duration="531000" />
       <workItem from="1582141859654" duration="3335000" />
       <workItem from="1582234296933" duration="32000" />
-      <workItem from="1582235110485" duration="6872000" />
+      <workItem from="1582235110485" duration="8479000" />
+      <workItem from="1582243896890" duration="2038000" />
+      <workItem from="1582303488614" duration="507000" />
     </task>
     <servers />
   </component>
