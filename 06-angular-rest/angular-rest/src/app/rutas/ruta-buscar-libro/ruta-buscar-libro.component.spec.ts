@@ -10,7 +10,7 @@ describe('RutaBuscarLibroComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ RutaBuscarLibroComponent ]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

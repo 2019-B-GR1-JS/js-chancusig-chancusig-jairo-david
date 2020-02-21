@@ -9,7 +9,7 @@ export class RutaCrearLibroComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }

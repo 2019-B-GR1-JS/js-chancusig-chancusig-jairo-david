@@ -10,7 +10,7 @@ describe('RutaLoginComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ RutaLoginComponent ]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

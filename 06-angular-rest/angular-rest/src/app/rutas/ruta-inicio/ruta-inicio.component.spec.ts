@@ -10,7 +10,7 @@ describe('RutaInicioComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ RutaInicioComponent ]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

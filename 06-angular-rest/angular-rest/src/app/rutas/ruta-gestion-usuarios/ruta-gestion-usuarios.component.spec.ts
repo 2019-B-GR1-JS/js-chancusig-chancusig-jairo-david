@@ -10,7 +10,7 @@ describe('RutaGestionUsuariosComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ RutaGestionUsuariosComponent ]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
