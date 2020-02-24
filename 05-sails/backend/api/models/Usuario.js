@@ -6,21 +6,22 @@
  */
 
 module.exports = {
-
   attributes: {
-    nombre : {
+    nombre: {
       type: 'string'
     },
-    apellido : {
+    apellido: {
       type: 'string'
     },
-    correo : {
+    correo: {
       type: 'string'
     },
-    password : {
+    password: {
       type: 'string'
     },
+    librosDelUsuario: {
+      collection: 'libro', // Nombre del modelo hijo
+      via: 'idUsuario' // Nombre campos Foreign Key tabla hijo
+    }
   },
-
 };
-

@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {FILAS} from './constantes/numero-filas-por-tabla';
 
 import {ModalEditarUsuarioComponent} from "./modales/modal-editar-usuario/modal-editar-usuario.component";
 import {MatDialog} from "@angular/material/dialog";
@@ -27,9 +26,9 @@ export class AppComponent implements OnInit {
 // /login -> Componente
 // /Gestion Usuarios -> Componente
 //   // Gestion de Libros -> Componente
-//        / Buscar libros -> Componente
-//        / Crear libros -> Componente
-//        / Editar libros  -> Componente
+//        / Buscar libros -> Componente (id Usuario)
+//        / Crear libros -> Componente (id Usuario)
+//        / Editar libros  -> Componente (id Libro)
 
 
 
