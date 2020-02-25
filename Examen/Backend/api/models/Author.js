@@ -12,7 +12,7 @@ module.exports = {
     names: {
       type : 'string'
     },
-    numberJuegos : {
+    numberTickets : {
       type : 'number',
       min: 1
     },

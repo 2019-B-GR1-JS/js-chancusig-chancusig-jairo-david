@@ -1,6 +1,6 @@
 import { Author } from './Author';
 
-export interface Juego {
+export interface Ticket {
     createdAt?: number
     updatedAt?: number
     id?: number

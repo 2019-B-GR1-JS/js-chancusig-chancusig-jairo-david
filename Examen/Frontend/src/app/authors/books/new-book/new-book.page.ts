@@ -41,7 +41,7 @@ export class NewJuegoPage implements OnInit {
       const newAuthor$ = await this._juegoHttp
         .crear(body)
         .toPromise()
-      this._session.juegos.push(newAuthor$)
+      this._session.tickets.push(newAuthor$)
       this._router.navigate(
         ['/juego'],
         {

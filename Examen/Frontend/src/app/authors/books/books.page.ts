@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Juego } from 'src/app/dto/Juego';
+import { Ticket } from 'src/app/dto/Ticket';
 import { ActionSheetController } from '@ionic/angular';
 import { Router, ActivatedRoute } from '@angular/router';
 import { SessionService } from 'src/app/services/session/session.service';
@@ -12,7 +12,7 @@ import { JuegoHttpService } from 'src/app/services/book-http/book-http.service';
 })
 export class BooksPage implements OnInit {
 
-  juegos : Juego[]
+  tickets : Ticket[]
   searchText = ''
   authorId = 0
 
@@ -29,14 +29,14 @@ export class BooksPage implements OnInit {
         this.authorId = parametros.idAutor
       }
     )
-    this.juegos = this._session.juegos.filter(item => {
+    this.tickets = this._session.tickets.filter(item => {
       return item['author_FK'].id == this.authorId
     })
   }
 
   async presentActionSheet(index) {
     const actionSheet = await this.actionSheetController.create({
-      header: `${this.juegos[index].name}`,
+      header: `${this.tickets[index].name}`,
       buttons: [{
         text: 'Borrar',
         icon: 'trash',
@@ -53,11 +53,11 @@ export class BooksPage implements OnInit {
   }
 
   async delete(index){
-    var id = this.juegos[index].id
+    var id = this.tickets[index].id
     await this._juegoHttp.borrar(id).toPromise()
-    var currentIndex = this._session.juegos.indexOf(this.juegos[index])
-    this._session.juegos.splice(currentIndex, 1)
-    this.juegos = this._session.juegos.filter(item => {
+    var currentIndex = this._session.tickets.indexOf(this.tickets[index])
+    this._session.tickets.splice(currentIndex, 1)
+    this.tickets = this._session.tickets.filter(item => {
       return item['author_FK'].id == this.authorId
     })
   }

@@ -18,7 +18,7 @@ export class AuthorsPage implements OnInit {
 
   async presentActionSheet(index) {
     const actionSheet = await this.actionSheetController.create({
-      header: `${this.authors[index].names} ${this.authors[index].numberJuegos}`,
+      header: `${this.authors[index].names} ${this.authors[index].numberTickets}`,
       buttons: [{
         text: 'Borrar',
         icon: 'trash',
@@ -26,13 +26,13 @@ export class AuthorsPage implements OnInit {
           this.delete(index)
         }
       }, {
-        text: 'Ver juegos',
+        text: 'Ver tickets',
         icon: 'eye',
         handler: () => {
           this.toProducts(this.authors[index].id)
         }
       }, {
-        text: 'Nuevo juego',
+        text: 'Nuevo ticket',
         icon: 'book',
         handler: () => {
           this.toProducts(this.authors[index].id)
@@ -47,13 +47,13 @@ export class AuthorsPage implements OnInit {
   }
 
   toProducts(id){
-    console.log("vamos a ver los juegos");
+    console.log("vamos a ver los tikets");
     var parametros = {
       queryParams:{
         'idAutor' : id
       }
     }
-    this._router.navigate(['juego'],parametros)
+    this._router.navigate(['ticket'],parametros)
   }
 
   constructor(public actionSheetController: ActionSheetController,

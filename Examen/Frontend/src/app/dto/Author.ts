@@ -3,6 +3,6 @@ export interface Author {
     updatedAt?: number
     id?: number
     names : string
-    numberJuegos : number
-    juegos? : any[]
+    numberTickets : number
+    tickets? : any[]
 }

@@ -11,7 +11,7 @@ import { Location } from '@angular/common';
 })
 export class ShopPage implements OnInit {
 
-  juegos
+  tickets
   cart
   name
   ruc
@@ -27,14 +27,14 @@ export class ShopPage implements OnInit {
     private readonly _location : Location) { }
 
   ngOnInit() {
-    this.juegos = this._session.juegos
+    this.tickets = this._session.tickets
     this.cart = this._shoppingCart.detalleCarrito
     this.totalCost = this._shoppingCart.costoTotal[0]
     this.cashier = this._isLogged.user.userName
   }
 
   addToCart(index){
-    this._shoppingCart.insertarAlCarrito(this.juegos[index])
+    this._shoppingCart.insertarAlCarrito(this.tickets[index])
   }
 
   removeFromCart(item){

@@ -3,7 +3,7 @@ import { Author } from 'src/app/dto/Author';
 import { AuthorHttpService } from '../author-http/author-http.service';
 import { JuegoHttpService } from '../book-http/book-http.service';
 import { BillHttpService } from '../bill-http/bill-http.service';
-import { Juego } from 'src/app/dto/Juego';
+import { Ticket } from 'src/app/dto/Ticket';
 import { Bill } from 'src/app/dto/Bill';
 
 @Injectable({
@@ -12,7 +12,7 @@ import { Bill } from 'src/app/dto/Bill';
 export class SessionService {
 
   authors : Author[] = []
-  juegos : Juego[] = []
+  tickets : Ticket[] = []
   bills : Bill[] = []
     // juegos: any;
 
@@ -23,7 +23,7 @@ export class SessionService {
   async chargeData(){
     try {
       this.authors = await this._authorHttp.buscarTodos().toPromise()
-      this.juegos = await this._juegosHttp.buscarTodos().toPromise()
+      this.tickets = await this._juegosHttp.buscarTodos().toPromise()
       this.bills = await this._billHttp.buscarTodos().toPromise()
     }catch(error){
       console.log('Something went wrong')

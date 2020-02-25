@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 export class NewAuthorPage implements OnInit {
 
   names;
-  numberJuegos;
+  numberTickets;
 
   constructor(private readonly _authorHttp : AuthorHttpService,
     private readonly _session : SessionService,
@@ -26,7 +26,7 @@ export class NewAuthorPage implements OnInit {
       names : this.names,
       lastNames : null,
       birthDate : null,
-      numberJuegos : this.numberJuegos,
+      numberTickets : this.numberTickets,
       ecuatorian : null
     };
 

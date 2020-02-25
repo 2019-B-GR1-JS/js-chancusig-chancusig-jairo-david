@@ -8,14 +8,13 @@
 module.exports = {
 
   login : async (req, res) => {
-      var userNameParam = req.param('userName');
-    var passParam = req.param('password');
+      var userNameParam = req.param('userName'), passParam = req.param('password');
     if(userNameParam && passParam){
       try {
         var user = await User.find({userName : userNameParam});
 
         if(user){
-          if(user[0].password == passParam){
+          if(user[0].password === passParam){
             var response = {
               id : user[0].id,
               userName : user[0].userName

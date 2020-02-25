@@ -17,7 +17,7 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'Consolas',
+      title: 'Tickets',
       url: '/authors',
       icon: 'list'
     },
