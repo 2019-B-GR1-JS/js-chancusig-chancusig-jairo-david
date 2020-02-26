@@ -1,0 +1,88 @@
+<div class="form-container">
+  <h1>Pasaporte</h1>
+  <form [formGroup]="pasaporteForm" (ngSubmit)="onSaveForm()">
+
+    <!--NOMBRE-->
+    <input type="text" formControlName="name" placeholder="Nombre">
+    <div class="alert-danger" *ngIf="name.invalid && (name.dirty || name.touched)">
+      <div class="container-error-message" *ngIf="name.errors.required">
+        El nombre es requerido.
+      </div>
+      <div class="container-error-message" *ngIf="name.errors.minlength">
+        El nombre debe tener al menos 5 caracteres
+      </div>
+    </div>
+
+    <!--Apellido-->
+    <input type="text" formControlName="apellido" placeholder="Apellido">
+    <div class="alert-danger" *ngIf="apellido.invalid && (apellido.dirty || apellido.touched)">
+      <div class="container-error-message" *ngIf="apellido.errors.required">
+        El apellido es requerido.
+      </div>
+      <div class="container-error-message" *ngIf="apellido.errors.minlength">
+        El apellido debe tener al menos 5 caracteres
+      </div>
+    </div>
+
+    <!--SEXO-->
+    <label>Escriba su sexo</label>
+    <input type="text" formControlName="sexo" placeholder="Hombre / Mujer">
+    <div class="alert-danger" *ngIf="sexo.invalid && (sexo.dirty || sexo.touched)">
+      <div class="container-error-message" *ngIf="sexo.errors.required">
+        El campo es requerido.
+      </div>
+    </div>
+
+    <!--EDAD-->
+    <label>Escriba su edad</label>
+    <input type="text" formControlName="edad" placeholder="0 - 150">
+    <div class="alert-danger" *ngIf="edad.invalid && (edad.dirty || edad.touched)">
+      <div class="container-error-message" *ngIf="edad.errors.required">
+        El campo es requerido.
+      </div>
+    </div>
+
+    <!--CEDULA-->
+    <label>Escriba su número de cédula</label>
+    <input type="text" formControlName="cedula" placeholder="10 dígitos">
+    <div class="alert-danger" *ngIf="cedula.invalid && (cedula.dirty || cedula.touched)">
+      <div class="container-error-message" *ngIf="cedula.errors.required">
+        El campo es requerido.
+      </div>
+      <div class="container-error-message" *ngIf="cedula.errors.minlength">
+        El nombre debe tener al menos 10 caracteres
+      </div>
+    </div>
+
+
+    <!--EMAIL-->
+    <input type="text" formControlName="email" placeholder="ejemplo@ejemplo.com">
+
+    <div class="alert-danger" *ngIf="email.invalid && (email.dirty || email.touched)">
+      <div class="container-error-message" *ngIf="email.errors.required">
+        El email es requerido
+      </div>
+      <div class="container-error-message" *ngIf="email.errors.minlength">
+        Debe tener al menos 5 caracteres
+      </div>
+      <div class="container-error-message"
+           *ngIf="(email.dirty || email.touched) && email.invalid && email.errors.pattern">
+        Ingrese un email válido.
+      </div>
+    </div>
+
+    <!--MENSAJE-->
+    <textarea formControlName="message" placeholder="Observacines"></textarea>
+    <div class="alert-danger" *ngIf="message.invalid && (message.dirty || message.touched)">
+      <div class="container-error-message" *ngIf="message.errors.required">
+        El mensaje es requerido
+      </div>
+      <div class="container-error-message" *ngIf="message.errors.minlength">
+        Debe tener almenos 5 caracteres
+      </div>
+    </div>
+
+    <!--BOTÓN-->
+    <button type="submit" class="btn-send" [disabled]="!pasaporteForm.valid">Enviar</button>
+  </form>
+</div>
